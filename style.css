@@ -1,0 +1,30 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background-color:#6dadbf ;
+}
+section{
+    display: flex;
+    justify-content: center;
+}
+.blocks{
+    width: 770px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around
+}
+.block{
+    border-radius: 20px;
+    background-color: rgb(190, 184, 122);
+    width: 230px;
+    height: 200px;
+    margin-bottom: 20px;
+}
+
+p{
+    text-align: center;
+}
+h2{
+    padding-left: 10px;
+}
